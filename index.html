@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sp Gigagbyte Solutions</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="assets/images/logo/lion-logo.png" alt="logo" class="logo">
+        <h1 class="title">S.P. Gigagbyte Solutions</h1>
+        <h2 class="sub-title">One Point Solution</h2>
+        <a href="./home.html">
+            <svg class="double-down-arrow" width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                <path d="M472.271 216.272L256.005 432.542L39.729 216.27C30.642 207.183 15.905 207.181 6.81699 216.272C-2.27201 225.361 -2.27201 240.096 6.81699 249.184L239.55 481.911C243.914 486.275 249.833 488.727 256.005 488.727C262.177 488.727 268.097 486.274 272.46 481.91L505.181 249.183C514.27 240.094 514.27 225.359 505.181 216.271C496.095 207.183 481.358 207.181 472.271 216.272Z" fill="#D8E2DC"/>
+                <path d="M239.55 295.729C243.914 300.093 249.833 302.545 256.005 302.545C262.177 302.545 268.097 300.092 272.46 295.728L505.182 63C514.271 53.911 514.271 39.176 505.182 30.088C496.095 20.999 481.358 20.999 472.27 30.088L256.004 246.358L39.729 30.088C30.642 20.999 15.905 20.999 6.81699 30.088C-2.27101 39.177 -2.27201 53.912 6.81699 63L239.55 295.729Z" fill="#D8E2DC"/>
+                </g>
+                <defs>
+                <clipPath id="clip0">
+                <rect width="511.998" height="511.998" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+        </a>
+    </header>
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(event){
+                console.log('hello')
+                var $current = $(this).scrollTop();
+                if ($current > 20) {
+                    window.location.href='/home.html';
+                }
+            })
+        });
+    </script>
+</body>
+</html>
